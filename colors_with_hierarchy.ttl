@@ -15,17 +15,13 @@ colour:violet a skos:Concept ;
     skos:altLabel "Lila"@de, "purple"@en ;
     skos:topConceptOf colour: .
 
-colour:blue a skos:Concept ;
-    skos:prefLabel "Blau"@de, "blue"@en ;
-    skos:topConceptOf colour: .
-
 colour:green a skos:Concept ;
     skos:prefLabel "green"@en, "Grün"@de ;
     skos:narrower colour:grassgreen ;
     skos:topConceptOf colour: .
 
 colour:blue a skos:Concept ;
-    skos:prefLabel "green"@en, "Grün"@de ;
+    skos:prefLabel "blue"@en, "Blau"@de ;
     skos:narrower colour:himmelblau ;
     skos:topConceptOf colour: .
     
